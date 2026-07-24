@@ -8,4 +8,4 @@ def home():
 
 @app.get("/status")
 def status():
-    return {"status": "Ok", "versão": "1.0.0"}
+    return {"status": "ok", "versao": "1.0.0"}
